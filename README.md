@@ -1,6 +1,6 @@
 # Job Radar – Remote AI Automation Roles
 
-!\[Workflow screenshot](images/workflow.png)
+!\[Workflow screenshot](images/Screenshot%202026-11-03%20135630.png)
 
 
 
@@ -19,8 +19,8 @@ An n8n workflow that scans remote job boards every morning, filters for AI / aut
 ## Setup
 
 1. In n8n: **Import from file** → `workflow.json`
-2. **Score Posting**: pick your own n8n agent (replace `YOUR\_AGENT\_ID`). Its system prompt should return JSON: `{"score": 0-10, "verdict": "apply|skip", "reason": "...", "opener": "..."}`
-3. **Send to Telegram**: add your Telegram bot credential and set your chat ID (replace `YOUR\_TELEGRAM\_CHAT\_ID`)
+2. **Score Posting**: pick your own n8n agent (replace `YOUR\\\_AGENT\\\_ID`). Its system prompt should return JSON: `{"score": 0-10, "verdict": "apply|skip", "reason": "...", "opener": "..."}`
+3. **Send to Telegram**: add your Telegram bot credential and set your chat ID (replace `YOUR\\\_TELEGRAM\\\_CHAT\\\_ID`)
 4. Tweak the `KEEP` / `DROP` regexes in the *Normalize and Prefilter* node to match the roles you want
 5. Activate
 
