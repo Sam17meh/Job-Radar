@@ -1,4 +1,4 @@
-# Job Radar – Remote AI Automation Roles
+# Job Radar – Finding Job Roles
 
 ![Workflow screenshot](images/Screenshot%202026-11-03%20135630.png)
 
