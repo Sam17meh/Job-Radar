@@ -2,7 +2,7 @@
 
 ![Workflow screenshot](images/Screenshot%202026-11-03%20135630.png)
 
-An n8n workflow that scans remote job boards every morning, filters for AI / automation / GTM roles, scores each posting with an AI agent, and sends the good ones to Telegram with a ready-to-send opener.
+An n8n workflow that scans remote job boards every morning, filters for AI/automation / GTM roles, scores each posting with an AI agent, and sends the good ones to Telegram with a ready-to-send opener.
 
 ## How it works
 
