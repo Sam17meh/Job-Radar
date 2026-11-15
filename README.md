@@ -2,7 +2,7 @@
 
 ![Workflow screenshot](images/Screenshot%202026-11-03%20135630.png)
 
-An n8n workflow that scans remote job boards every morning, filters for AI / automation / GTM roles, scores each posting with an AI agent, and sends the good ones to Telegram with a ready-to-send opener.
+An n8n workflow that scans remote job boards every morning, filters for AI/automation / GTM roles, scores each posting with an AI agent, and sends the good ones to Telegram with a ready-to-send opener.
 
 ## How it works
 
@@ -18,7 +18,7 @@ An n8n workflow that scans remote job boards every morning, filters for AI / aut
 
 1. In n8n: **Import from file** → `workflow.json`
 2. **Score Posting**: pick your own n8n agent (replace `YOUR_AGENT_ID`). Its system prompt should return JSON: `{"score": 0-10, "verdict": "apply|skip", "reason": "...", "opener": "..."}`
-3. **Send to Telegram**: add your Telegram bot credential and set your chat ID (replace `YOUR_TELEGRAM_CHAT_ID`)
+3. **Send to Telegram**: add your Telegram bot credentials and set your chat ID (replace `YOUR_TELEGRAM_CHAT_ID`)
 4. Tweak the `KEEP` / `DROP` regexes in the *Normalize and Prefilter* node to match the roles you want
 5. Activate
 
